@@ -1,6 +1,6 @@
 "use client"
 
-import { Search, Bell, Plus, Play, Menu, X } from "lucide-react"
+import { Bell, Menu, Play, Plus, Search, X } from "lucide-react"
 import Image from "next/image"
 import { useState } from "react"
 
@@ -193,7 +193,6 @@ export default function NetflixRedesign() {
             </div>
           </div>
 
-          {/* Watch Parties Section */}
           <div className="flex flex-col gap-4">
             <div className="flex flex-row items-center gap-2">
               <h3 className="text-lg md:text-xl font-semibold">Watch Parties</h3>
@@ -222,7 +221,7 @@ export default function NetflixRedesign() {
             </div>
           </div>
 
-          {/* Continue Watching Section */}
+         
           <div className="flex flex-col gap-4">
             <h3 className="text-lg md:text-xl font-semibold">Continue watching</h3>
 
@@ -284,7 +283,7 @@ export default function NetflixRedesign() {
           </div>
         </main>
 
-        {/* Right Sidebar - Desktop Only */}
+        
         <aside className="hidden xl:flex xl:col-span-2 flex-col gap-6 p-6 border-l border-border">
           <div className="flex flex-col gap-3">
             <div className="flex flex-row gap-3 items-center">

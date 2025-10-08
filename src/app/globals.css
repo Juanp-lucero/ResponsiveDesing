@@ -3,7 +3,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Netflix-inspired dark theme */
+
 :root {
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -39,12 +39,12 @@
   --sidebar-border: oklch(0.92 0 0);
   --sidebar-ring: oklch(0.75 0.15 145);
 
-  /* Breaking Bad signature colors */
+  
   --breaking-bad-green: oklch(0.75 0.15 145);
   --breaking-bad-yellow: oklch(0.85 0.18 95);
 }
 
-/* Breaking Bad color theme */
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -120,7 +120,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 
-  /* Add Breaking Bad colors to theme */
+ 
   --color-breaking-bad-green: var(--breaking-bad-green);
   --color-breaking-bad-yellow: var(--breaking-bad-yellow);
 }
