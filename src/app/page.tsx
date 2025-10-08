@@ -9,7 +9,6 @@ export default function NetflixRedesign() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      {/* Mobile Header */}
       <header className="lg:hidden fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 bg-background/95 backdrop-blur-sm border-b border-border">
         <h1 className="text-xl font-bold text-primary">Netflix.</h1>
         <button
@@ -20,7 +19,7 @@ export default function NetflixRedesign() {
         </button>
       </header>
 
-      {/* Mobile Menu Overlay */}
+      
       {isMobileMenuOpen && (
         <div className="lg:hidden fixed inset-0 z-40 bg-background/95 backdrop-blur-sm pt-16">
           <nav className="flex flex-col gap-6 p-6 overflow-y-auto h-full">
@@ -68,7 +67,7 @@ export default function NetflixRedesign() {
       )}
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 min-h-screen">
-        {/* Left Sidebar - Desktop Only */}
+        
         <aside className="hidden lg:flex lg:col-span-2 flex-col gap-8 p-6 border-r border-border">
           <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-bold text-primary">Netflix.</h1>
@@ -130,9 +129,9 @@ export default function NetflixRedesign() {
           </div>
         </aside>
 
-        {/* Main Content */}
+        
         <main className="col-span-1 lg:col-span-8 flex flex-col gap-6 p-4 md:p-6 overflow-y-auto pt-20 lg:pt-6">
-          {/* Header with Search */}
+          
           <div className="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
             <div className="flex flex-row gap-2 items-center flex-1 px-3 py-2 rounded-lg border border-border">
               <Search className="w-4 h-4 text-muted-foreground flex-shrink-0" />
@@ -152,7 +151,7 @@ export default function NetflixRedesign() {
             </div>
           </div>
 
-          {/* Hero Section */}
+          
           <div className="flex flex-col gap-4 p-6 md:p-8 bg-card border border-border rounded-2xl md:rounded-3xl overflow-hidden relative h-64 sm:h-80 md:h-96">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/breaking-bad-hero-32j581o8H3cYsuS5iBeTJfPSo3MlVb.jpg"
